@@ -70,6 +70,8 @@ KML uses WGS84 lon/lat (`EPSG:4326`), as required by KML and expected by ArcGIS.
 
 Windows builds are produced by GitHub Actions on a Windows runner. Run the `Build Windows EXE` workflow manually, or push a `v*` tag. Download `SMART-Patrol-XML-to-KML.exe` from the workflow artifacts.
 
+See `docs/release-windows-exe.md` for release and Windows smoke-test steps.
+
 ## Troubleshooting
 
 If shapely is missing:
