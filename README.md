@@ -8,6 +8,16 @@ Convert SMART Conservation Software patrol XML exports to ArcGIS-compatible KML.
 python3 -m pip install -r requirements.txt
 ```
 
+## GUI
+
+Launch the desktop interface:
+
+```bash
+python3 run_gui.py
+```
+
+The GUI can convert one XML file or a folder of XML files. Leave the output folder blank to write each `.kml` beside its source XML, matching the command-line behavior.
+
 ## Single file
 
 ```bash
@@ -55,6 +65,10 @@ Each KML contains:
 Import with **KML To Layer**.
 
 KML uses WGS84 lon/lat (`EPSG:4326`), as required by KML and expected by ArcGIS.
+
+## Windows EXE
+
+Windows builds are produced by GitHub Actions on a Windows runner. Run the `Build Windows EXE` workflow manually, or push a `v*` tag. Download `SMART-Patrol-XML-to-KML.exe` from the workflow artifacts.
 
 ## Troubleshooting
 
