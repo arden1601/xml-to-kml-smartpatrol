@@ -21,3 +21,8 @@ def test_convert_minimal_patrol_fixture(tmp_path: Path) -> None:
     assert "PATROL-001" in text
     assert "Green turtle" in text
     assert "sumberdana" in text
+
+
+def test_cli_shim_reexports_converter_api() -> None:
+    assert smart_xml_to_kml.convert_file is not None
+    assert smart_xml_to_kml.find_xml_files is not None
