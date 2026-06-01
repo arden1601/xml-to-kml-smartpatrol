@@ -25,5 +25,8 @@ dist/
 .idea/
 .vscode/
 
+# Worktrees
+.worktrees/
+
 # Generated data
 *.kml
