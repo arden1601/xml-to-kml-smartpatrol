@@ -45,3 +45,4 @@ jobs:
           name: SMART-Patrol-XML-to-KML-windows
           path: dist/SMART-Patrol-XML-to-KML.exe
           if-no-files-found: error
+
